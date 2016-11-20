@@ -1,0 +1,4 @@
+{
+  "/": "home",
+  "/profiles/{name}/test/{id}": "profile"
+}
