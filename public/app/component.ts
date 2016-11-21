@@ -1,4 +1,4 @@
-/// <reference path="whamsauce.ts" />
+// <reference path="promise.ts" />
 // <reference path="controller.ts" />
 
 
@@ -37,7 +37,7 @@ namespace Whamsauce {
         }
 
         private static getComponentPath(componentName:string):string {
-            return '/components/' + componentName + '/';
+            return '/components/' + componentName.toLowerCase() + '/';
         }
 
         private static getComponentClassName(componentName:string):string {

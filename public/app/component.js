@@ -1,4 +1,4 @@
-/// <reference path="whamsauce.ts" />
+// <reference path="promise.ts" />
 // <reference path="controller.ts" />
 var Whamsauce;
 (function (Whamsauce) {
@@ -26,7 +26,7 @@ var Whamsauce;
             return promise;
         };
         Component.getComponentPath = function (componentName) {
-            return '/components/' + componentName + '/';
+            return '/components/' + componentName.toLowerCase() + '/';
         };
         Component.getComponentClassName = function (componentName) {
             return 'Controller_' + componentName.charAt(0).toUpperCase() + componentName.slice(1);

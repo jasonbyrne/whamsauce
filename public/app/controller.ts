@@ -2,8 +2,9 @@
  * Created by jasonbyrne on 11/20/16.
  */
 
-/// <reference path="../../typings/handlebars.d.ts" />
-/// <reference path="whamsauce.ts" />
+/// <reference path="../typings/handlebars.d.ts" />
+// <reference path="promise.ts" />
+// <reference path="component.ts" />
 
 namespace Whamsauce {
 

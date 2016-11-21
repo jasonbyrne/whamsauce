@@ -6,13 +6,20 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Whamsauce;
 (function (Whamsauce) {
-    var Controller_Button = (function (_super) {
-        __extends(Controller_Button, _super);
-        function Controller_Button() {
+    var Controller_FileNotFound = (function (_super) {
+        __extends(Controller_FileNotFound, _super);
+        function Controller_FileNotFound() {
             _super.apply(this, arguments);
         }
-        return Controller_Button;
+        Controller_FileNotFound.prototype.partials = function () {
+            return {
+                'button': 'button',
+                'test': 'input'
+            };
+        };
+        ;
+        return Controller_FileNotFound;
     }(Whamsauce.Controller));
-    Whamsauce.Controller_Button = Controller_Button;
+    Whamsauce.Controller_FileNotFound = Controller_FileNotFound;
 })(Whamsauce || (Whamsauce = {}));
 //# sourceMappingURL=controller.js.map

@@ -2,7 +2,7 @@
 
 namespace Whamsauce {
 
-    export class Controller_Home extends Controller {
+    export class Controller_FileNotFound extends Controller {
 
         partials() {
             return {

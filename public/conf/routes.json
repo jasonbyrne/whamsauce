@@ -1,4 +1,5 @@
 {
-  "/": "home",
-  "/profiles/{name}/test/{id}": "profile"
+  "/": "Home",
+  "/profiles/{name}/test/{id}": "Profile",
+  ".*": "FileNotFound"
 }

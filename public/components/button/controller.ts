@@ -1,4 +1,4 @@
-/// <reference path="../../app/controller.ts" />
+/// <reference path="../../../src/controller.ts" />
 
 namespace Whamsauce {
 
