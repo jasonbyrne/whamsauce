@@ -1,9 +1,6 @@
-/// <reference path="../../../src/controller.ts" />
+import { Controller } from "../../core/controller";
 
-namespace Whamsauce {
 
-    export class Controller_Button extends Controller {
-
-    }
+export class Controller_Button extends Controller {
 
 }

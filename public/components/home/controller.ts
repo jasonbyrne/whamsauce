@@ -1,17 +1,13 @@
-/// <reference path="../../../src/controller.ts" />
+import { Controller } from "../../core/controller";
 
-namespace Whamsauce {
+class Controller_Home extends Controller {
 
-    export class Controller_Home extends Controller {
+    partials() {
+        return {
+            'button': 'button',
+            'test': 'input'
+        }
+    };
 
-        partials() {
-            return {
-                'button': 'button',
-                'test': 'input'
-            }
-        };
-
-
-    }
 
 }
