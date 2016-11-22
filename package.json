@@ -6,6 +6,8 @@
   "author": "Jason Byrne <jasonbyrne>",
   "license": "MIT",
   "dependencies": {
+    "@types/handlebars": "^4.0.31",
+    "@types/jquery": "^2.0.34",
     "mkdirp": "^0.5.1",
     "typescript": "^2.0.10",
     "uglifyjs": "^2.4.10",
