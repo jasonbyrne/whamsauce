@@ -1,0 +1,14 @@
+{
+  "name": "WhamSauce",
+  "version": "0.0.1",
+  "description": "WhamSauce Framework",
+  "repository": "git@github.com:jasonbyrne/whamsauce.git",
+  "author": "Jason Byrne <jasonbyrne>",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "typescript": "^2.0.10",
+    "uglifyjs": "^2.4.10",
+    "webpack": "^1.13.3"
+  }
+}
