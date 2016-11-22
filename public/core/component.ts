@@ -1,7 +1,7 @@
+import { Promise } from './promise';
+import { Load } from './load';
+import { Controller } from './controller';
 
-var Promise = require("./promise").Promise,
-    Controller = require("./controller").Controller,
-    Load = require("./load").Load;
 
 export class Component {
 

@@ -1,6 +1,7 @@
 // <reference path="./promise.ts" />
 
-var Promise = require("./promise").Promise;
+import { Promise } from './promise';
+
 
 /**
  * Simple file and script loader

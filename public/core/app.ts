@@ -1,11 +1,10 @@
-
-var Promise = require("./promise").Promise,
-    Load = require("./load").Load,
-    Rule = require("./rule").Rule,
-    Router = require("./router").Router,
-    Controller = require("./controller").Controller,
-    Component = require("./component").Component,
-    Exception = require("./exception").Exception;
+import { Promise } from './promise';
+import { Load } from './load';
+import { Rule } from './rule';
+import { Router } from './router';
+import { Controller } from './controller';
+import { Component } from './component';
+import { Exception } from './exception';
 
 
 class App {

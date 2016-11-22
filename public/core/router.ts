@@ -1,9 +1,9 @@
+import { Promise } from './promise';
+import { Rule } from './rule';
+import { Component } from './component';
+import { Controller } from './controller';
+import { Exception } from './exception';
 
-
-var Rule = require("./rule").Rule,
-    Component = require("./component").Component,
-    Promise = require("./promise").Promise,
-    Exception = require("./exception").Exception;
 
 export class Router {
 

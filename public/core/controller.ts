@@ -2,8 +2,9 @@
  * Created by jasonbyrne on 11/20/16.
  */
 
-var Promise = require("./promise").Promise,
-    Component = require("./component").Component;
+import { Promise } from './promise';
+import { Component } from './component';
+
 
 export class Controller {
 
